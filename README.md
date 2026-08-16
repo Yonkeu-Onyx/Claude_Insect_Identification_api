@@ -1,3 +1,4 @@
+🇫🇷 [Version française](README.fr.md)
 # Insect Identification API
 
 A REST API built with FastAPI that uses Claude's vision capabilities (Anthropic API) to automatically identify insects or pests from an image, returning structured information: species name, threat level, and recommended control methods.
