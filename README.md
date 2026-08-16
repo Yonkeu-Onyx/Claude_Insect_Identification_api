@@ -1,12 +1,12 @@
-Insect Identification API
+# Insect Identification API
 
 A REST API built with FastAPI that uses Claude's vision capabilities (Anthropic API) to automatically identify insects or pests from an image, returning structured information: species name, threat level, and recommended control methods.
 
-Context :
+## Context :
 During an internship, developed by me for the backend of a mobile application meant to identify pests
 
 
- Features
+## Features
 
 - Image analysis via URL or base64-encoded image
 - Species identification (common name + scientific name)
@@ -16,7 +16,7 @@ During an internship, developed by me for the backend of a mobile application me
 - Robust error handling (Claude timeout, rate limiting, malformed JSON, invalid image)
 - Structured, validated responses using Pydantic
 
-Tech stack
+## Tech stack
 
 - Python 3 / FastAPI
 - Anthropic API (Claude, vision)
@@ -24,7 +24,7 @@ Tech stack
 - httpx for downloading remote images
 - Docker for deployment
 
-Local setup
+## Local setup
 
 ```bash
 # Clone the repo
@@ -44,7 +44,7 @@ uvicorn main:app --reload
 
 The API will be available at `http://localhost:8000`, with interactive auto-generated docs at `http://localhost:8000/docs`.
 
-Usage
+## Usage
 
 POST `/claude_analyze`
 
@@ -81,7 +81,7 @@ Response:
 }
 ```
 
-What I learned building this
+## What I learned building this
 
 - Using An AI's API endpoints effectively
 - Integrating the use of an AI directly into an application
