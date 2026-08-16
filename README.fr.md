@@ -1,4 +1,4 @@
-## Insect Identification API
+# Insect Identification API
 
 API REST construite avec FastAPI, qui utilise l'API Claude (Anthropic) en vision pour identifier automatiquement un insecte ou nuisible à partir d'une image, et retourner des informations structurées : nom scientifique, niveau de menace, et méthodes de contrôle recommandées.
 
